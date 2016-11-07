@@ -1,0 +1,20 @@
+{
+  "name": "gitbook-prism-example",
+  "version": "1.0.0",
+  "description": "Example Gitbook project using gitbook-plugin-prism",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "book:prepare": "gitbook install",
+    "book": "npm run book:prepare && gitbook serve"
+  },
+  "keywords": [
+    "gitbook",
+    "prism"
+  ],
+  "author": "Robert McGuinness",
+  "license": "MIT",
+  "dependencies": {
+    "gitbook-cli": "^2.3.0"
+  }
+}
