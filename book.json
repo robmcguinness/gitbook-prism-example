@@ -8,7 +8,7 @@
   "pluginsConfig": {
     "prism": {
       "css": [
-        "syntax-highlighting/assets/css/prism/prism-xonokai.css"
+        "prismjs/themes/prism-solarizedlight.css"
       ]
     }
   }
