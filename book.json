@@ -1,8 +1,15 @@
 {
-  "gitbook": "2.x.x",
+  "gitbook": "3.x.x",
   "title": "Gitbook Plugin Prism Example",
   "plugins": ["prism", "-highlight"],
   "structure": {
     "summary": "SUMMARY.md"
+  },
+  "pluginsConfig": {
+    "prism": {
+      "css": [
+        "syntax-highlighting/assets/css/prism/prism-xonokai.css"
+      ]
+    }
   }
 }

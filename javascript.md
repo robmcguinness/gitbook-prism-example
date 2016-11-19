@@ -1,11 +1,14 @@
 > Javscript syntax highlighting
 
 ```js
-function hello() {
-    return 'hello world!';
+class Polygon {
+  constructor(height, width) {
+    this.height = height;
+    this.width = width;
+  }
+  get area() {
+    return this.height * this.width;
+  }
 }
-
-const salutation = hello();
-
-console.log(salutation);
 ```
+

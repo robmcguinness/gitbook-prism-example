@@ -1,12 +1,13 @@
 {
   "name": "gitbook-prism-example",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Example Gitbook project using gitbook-plugin-prism",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "book:prepare": "gitbook install",
-    "book": "npm run book:prepare && gitbook serve"
+    "start": "npm run book:prepare && gitbook serve",
+    "up": "gitbook serve",
+    "debug": "node $NODE_DEBUG_OPTION ./node_modules/.bin/gitbook serve",
+    "book:prepare": "gitbook install"
   },
   "keywords": [
     "gitbook",
@@ -16,5 +17,9 @@
   "license": "MIT",
   "dependencies": {
     "gitbook-cli": "^2.3.0"
+  },
+  "devDependencies": {
+    "gitbook-plugin-prism": "file:///Users/rmcguinness/Workspaces/open-source/gitbook-plugin-prism",
+    "syntax-highlighting": "github:atelierbram/syntax-highlighting"
   }
 }
