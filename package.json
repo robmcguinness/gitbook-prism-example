@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run book:prepare && gitbook serve",
-    "up": "gitbook serve",
-    "debug": "node $NODE_DEBUG_OPTION ./node_modules/.bin/gitbook serve",
+    "serve": "gitbook serve",
+    "webstorm:start": "node $NODE_DEBUG_OPTION ./node_modules/.bin/gitbook serve",
     "book:prepare": "gitbook install"
   },
   "keywords": [
@@ -19,7 +19,6 @@
     "gitbook-cli": "^2.3.0"
   },
   "devDependencies": {
-    "gitbook-plugin-prism": "file:///Users/rmcguinness/Workspaces/open-source/gitbook-plugin-prism",
     "syntax-highlighting": "github:atelierbram/syntax-highlighting"
   }
 }
